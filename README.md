@@ -70,7 +70,7 @@ JWT_SECRET = your_jwt_secret
 Note: Do not share your .env file or commit it to GitHub. Make sure .env is included in your .gitignore file.
 
 # Run the server
-npm start
+npm run dev 
 🧪 API Documentation
 Coming soon via Swagger/Postman after full backend integration.
 
