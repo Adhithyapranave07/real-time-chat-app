@@ -58,7 +58,16 @@ cd realtime-chat-app/backend
 npm install
 
 # Set environment variables
-cp .env.example .env
+Environment Variables Setup
+Create a .env file in the root of the project and add the following variables:
+
+PORT = 5001
+MONGO_URL = your_mongodb_connection_string
+STREAM_API_KEY = your_stream_api_key
+STREAM_API_SECRET = your_stream_api_secret
+JWT_SECRET = your_jwt_secret
+
+Note: Do not share your .env file or commit it to GitHub. Make sure .env is included in your .gitignore file.
 
 # Run the server
 npm start
